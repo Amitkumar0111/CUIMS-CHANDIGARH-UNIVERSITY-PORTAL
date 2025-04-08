@@ -1,0 +1,32 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+.event_details {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.event_details span {
+    font-size: 10px;
+    color: #fff;
+    margin: 0;
+    display: inline-block;
+}
+
+.event_details span a {
+    font-size: 10px;
+    color: #fff;
+    display: inline-block;
+}
+
+.event_details span a:hover {
+    text-decoration: underline !important;
+}
+
+.uims-logo img {
+    width: 230px;
+}

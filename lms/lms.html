@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en" xml:lang="en">
+
+<head>
+    <title>CHANDIGARH UNIVERSITY: Log in to the site</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="moodle, CHANDIGARH UNIVERSITY: Log in to the site" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="shortcut icon" href="https://lms.cuchd.in/pluginfile.php/1/theme_moove/favicon/1712739602/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="https://lms.cuchd.in/theme/styles.php/moove/1712739602_1/all" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://lms.cuchd.in/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="page-login-index"
+    class="format-site path-login chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam lms-cuchd-in pagelayout-login course-1 context-1 notloggedin moove-login">
+    <div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
+    <div id="page-wrapper">
+        <div role="main">
+            <span id="maincontent"></span>
+            <main class="loginWrapper h-100 position-relative">
+                <header class="py-3">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="headerLogos">
+                                    <a href="../index.html" target="_self">
+                                        <img src="img/cu-logo-white.png" alt="Chandigarh University" width="250"
+                                            class="cuLogo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div
+                                    class="headerRight d-flex align-items-center justify-content-lg-end justify-content-sm-center">
+                                    <div class="phone">
+                                        Call Us: <a href="tel:18002571800">1800 257 1800</a>
+                                    </div>
+                                    <div class="socialLinks">
+                                        <a href="https://www.facebook.com/chandigarhuniversitygharuan" target="_blank">
+                                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/chandigarhuniversity/" target="_blank">
+                                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com/school/chandigarh-university/"
+                                            target="_blank">
+                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://twitter.com/chandigarh_uni" target="_blank">
+                                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://www.youtube.com/user/chandigarhuniversity" target="_blank">
+                                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div id="myCarousel" class="carousel slide carousel-fade h-100" data-bs-ride="carousel">
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item h-100 active"
+                            style="background: url('img/slide-1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                        </div>
+                        <div class="carousel-item h-100"
+                            style="background: url('img/slide-2.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                        </div>
+                    </div>
+                </div>
+                <div class="cuidolLmsLogin">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 m-auto" style="overflow: auto;">
+                                <div class="cuidolLmsLogin__inner loginRegisterForm text-center">
+                                    <h2>Login</h2>
+                                    <p class="text-center" style="margin-bottom: 0px;">Kindly fill your Username &
+                                        Password below <br>to access your account.</p>
+                                    <div class="cuidolLmsLogin__form">
+                                        <div class="cuidolLmsLogin__form--fields loginForm">
+                                            <form class="row g-3 needs-validation" action="#" method="post"
+                                                id="loginForm">
+                                                <div class="col-md-12">
+                                                    <div class="form-floating mb-2">
+                                                        <input type="text" name="username" class="form-control"
+                                                            style="text-transform:uppercase" id="username"
+                                                            placeholder="Username" maxlength="10" required>
+                                                        <label for="username">UID</label>
+                                                        <div class="invalid-feedback">This field is required!</div>
+                                                        <div class="valid-feedback">Looks good!</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-floating">
+                                                        <input type="password" name="password" class="form-control"
+                                                            id="password" maxlength="20" placeholder="Password"
+                                                            required>
+                                                        <label for="password">Password</label>
+                                                        <i onclick="togglePassword()" class="fa fa-eye fa-lg"
+                                                            id="TogglePassword"
+                                                            style="position: absolute; top: 20px; right: 20px; color: #FDF8F7;"></i>
+                                                        <div class="invalid-feedback">This field is required!</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 text-end">
+                                                    <p class="m-0"><a href="http://uims.cuchd.in/"
+                                                            target="_blank">Forgot Password?</a></p>
+                                                </div>
+                                                <div class="col-12" style="padding-top:10px">
+                                                    <button class="btn cta-btn row w-100" type="submit" id="loginbtn"
+                                                        onclick="submitForm()">Log in</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        function togglePassword() {
+            var passwordField = document.getElementById("password");
+            var toggleButton = document.getElementById("TogglePassword");
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                toggleButton.classList.remove("fa-eye");
+                toggleButton.classList.add("fa-eye-slash");
+            } else {
+                passwordField.type = "password";
+                toggleButton.classList.remove("fa-eye-slash");
+                toggleButton.classList.add("fa-eye");
+            }
+        }
+
+        function submitForm() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            // Check if username and password meet your conditions
+            if (username == !"" || password == !"") {
+                // Display an alert if either username or password is empty
+                alert("Please fill in both username and password fields.");
+                return false;
+            } else {
+                // Redirect to index.html after successful submission
+                window.location.href = "../index.html";
+                return true; // Allow form submission
+            }
+        }
+    </script>
+</body>
+
+</html>

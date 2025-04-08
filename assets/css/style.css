@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+.loginOption-section {
+    background: #ef0000;
+    min-height: 100%;
+    position: relative;
+    padding: 100px 0;
+}
+
+.loginOption-section::before {
+    content: '';
+    background: #f9f9f9;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 450px;
+}
+
+.loginOption-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.loginOption-section__logo {
+    margin-bottom: 50px;
+}
+
+
+.loginOption-section__logo img {
+    width: 210px;
+}
+
+.loginOption-section__list--card {
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #111;
+    border: 1px solid #ececed;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.loginOption-section__list--card .card-body {
+    min-height: 140px;
+}
+
+.loginOption-section__list--card span {
+    display: inline-block;
+}
+
+.loginOption-section__list--card span img {
+    width: auto;
+    height: 60px;
+}
+
+.loginOption-section__list--card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #111;
+}
+
+.loginOption-section__list--card a {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    background: #ef0000;
+    padding: 9px 17px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.loginOption-section__list--card a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #111
+}
+
+
+
+@media only screen and (min-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .loginOption-section {
+        padding: 60px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .loginOption-section {
+        padding: 40px 0
+    }
+
+    .loginOption-section::before {
+        height: 300px
+    }
+
+    .loginOption-section__logo {
+        margin-bottom: 30px
+    }
+
+    .loginOption-section__logo img {
+        width: 180px
+    }
+
+    .loginOption-section__list--card .card-body {
+        min-height: inherit;
+    }
+
+    .loginOption-section__logo img:nth-child(1) {
+        width: 120px !important;
+    }
+
+    .loginOption-section__logo img:nth-child(2) {
+        width: 93px !important;
+    }
+}

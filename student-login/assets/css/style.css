@@ -1,0 +1,220 @@
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+        background: url('./assets/uploads/login-bg-new-3.jpg');
+    }
+
+
+    .event_details {
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    .event_details span {
+        font-size: 10px;
+        color: #fff;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .event_details span a {
+        font-size: 10px;
+        color: #fff;
+        display: inline-block;
+    }
+
+    .event_details span a:hover {
+        text-decoration: underline !important;
+    }
+
+    .uims-logo img {
+        width: 190px;
+    }
+
+
+
+    .login-form {
+        max-width: 370px;
+        background: rgb(25 26 32 / 50%);
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px) contrast(90%);
+        -webkit-backdrop-filter: blur(10px) contrast(90%);
+        margin-right: auto !important;
+        margin-left: 15%;
+        z-index: 100;
+    }
+
+    input[type=text],
+    select,
+    input[type=password],
+    .user-ico-d {
+        height: 48px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2) !important;
+        color: #fff;
+        line-height: 48px;
+    }
+
+    input[type=submit] {
+        height: 44px;
+    }
+
+    .btn {
+        height: 48px;
+        line-height: 48px;
+        width: 100%;
+        border-radius: 30px;
+        background: #e10f0f;
+        border: 0;
+        padding: 0 15px;
+        color: #fff;
+        text-transform: uppercase;
+        transition: all 0.4s ease-in-out 0s;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+    }
+
+    .sec-btn {
+        background: #457b9d;
+    }
+
+    .sec-btn:hover {
+        background: #3f51b5;
+        color: #ffffff;
+    }
+
+    .login-form p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .color-overlay {
+        background: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(0px);
+    }
+
+    .landing-bg::before {
+        filter: none;
+        background: rgb(25 26 32 / 10%);
+        z-index: 1;
+        display: none;
+    }
+
+    .color-overlay::before {
+        filter: none;
+        background: rgb(25 26 32 / 60%);
+        z-index: 1;
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgb(17, 17, 28);
+        background: linear-gradient(90deg, rgba(17, 17, 28, 1) 0%, rgba(255, 154, 47, 0) 70%, rgba(17, 17, 28, 1) 100%);
+    }
+
+    .modal {
+        background: rgb(50 50 50 / 58%);
+    }
+
+    .modal-dialog {
+        margin: 30px auto;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+
+    #divChangePassword input[type=text],
+    #divChangePassword select,
+    #divChangePassword input[type=password],
+    #divChangePassword .user-ico-d,
+
+    #pnlRecoveryPassword input[type=text],
+    #pnlRecoveryPassword select,
+    #pnlRecoveryPassword input[type=password],
+    #pnlRecoveryPassword .user-ico-d {
+        border: 1px solid #ddd !important;
+        color: #333;
+    }
+
+    #divChangePassword .modal-header,
+    #divForgotPassword .modal-header {
+        background: #fff;
+        border: 0;
+    }
+
+    #divChangePassword .modal-header h4,
+    #divForgotPassword .modal-header h4 {
+        color: #333;
+        font-weight: bold;
+    }
+
+    #divChangePassword .modal-header .close,
+    #divForgotPassword .modal-header .close {
+        color: #000;
+    }
+
+    .ui-datepicker-title select {
+        color: #333 !important;
+    }
+
+
+
+    #divChangePassword input::placeholder,
+    #pnlRecoveryPassword input::placeholder {
+        color: #666;
+        opacity: 1;
+    }
+
+    #divChangePassword input:-ms-input-placeholder,
+    #pnlRecoveryPassword input:-ms-input-placeholder {
+        color: #666;
+    }
+
+    #divChangePassword input::-ms-input-placeholder,
+    #pnlRecoveryPassword input::-ms-input-placeholder {
+        color: #666;
+    }
+
+
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    .landing-bg {
+        min-height: 768px;
+        height: 100%;
+    }
+
+    .color-overlay,
+    #form1 {
+        height: 100%;
+        position: static;
+    }
+
+    @media only screen and (max-width: 1199px) {
+        .color-overlay {
+            background-position: 0 0 !important;
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+        .color-overlay {
+            background-position: right bottom !important;
+        }
+
+        .login-form {
+            margin: auto;
+        }
+    }
+
+
+    .__border_color_default {
+        border-color: #ebebeb !important;
+    }
